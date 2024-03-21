@@ -1,0 +1,72 @@
+@font-face {
+  font-family: Outfit;
+  src: url(../fonts/Outfit-VariableFont_wght.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: rgb(214, 226, 239);
+}
+
+main .container {
+  height: 497px;
+  width: 320px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  gap: 24px;
+  background: white;
+  border-radius: 20px;
+  padding: 16px 16px 40px;
+}
+main .container img {
+  display: block;
+  width: 100%;
+  border-radius: 10px;
+}
+main .container .text-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 16px;
+}
+main .container .text-container h1 {
+  font-family: Outfit, sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  color: rgb(31, 49, 80);
+}
+main .container .text-container p {
+  font-family: Outfit, sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: rgb(123, 164, 157);
+  padding: 0 16px;
+}/*# sourceMappingURL=index.css.map */

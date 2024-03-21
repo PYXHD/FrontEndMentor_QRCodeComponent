@@ -1,0 +1,36 @@
+@font-face {
+  font-family: Outfit;
+  src: url(../fonts/Outfit-VariableFont_wght.ttf);
+}
+
+$white: white;
+$bg-body: rgb(214, 226, 239);
+$textColor: rgb(123, 164, 157);
+$titleColor: rgb(31, 49, 80);
+
+@mixin textFont {
+  font-family: Outfit, sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: $textColor;
+  padding: 0 16px;
+}
+@mixin titleFont {
+  font-family: Outfit, sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  color: $titleColor;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: $bg-body;
+}
